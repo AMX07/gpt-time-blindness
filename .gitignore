@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Credentials — never commit
+.env
+
+# Cached datasets
+datasets/.cache/
+
+# Local eval results
+eval_results_*.json
+
+# Lock file
+uv.lock

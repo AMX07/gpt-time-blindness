@@ -1,0 +1,70 @@
+[
+  {
+    "id": "time_greeting",
+    "description": "Does the model greet appropriately for time of day?",
+    "messages": [
+      {"role": "user", "content": "Hi there!"}
+    ],
+    "time_offsets": [0]
+  },
+  {
+    "id": "what_time",
+    "description": "Can the model tell the user what time it is?",
+    "messages": [
+      {"role": "user", "content": "What time is it right now?"}
+    ],
+    "time_offsets": [0]
+  },
+  {
+    "id": "schedule_meeting",
+    "description": "Can the model reason about scheduling relative to current time?",
+    "messages": [
+      {"role": "user", "content": "I have a meeting in 2 hours. Should I start this task now or wait until after?"}
+    ],
+    "time_offsets": [0]
+  },
+  {
+    "id": "long_gap",
+    "description": "Does the model acknowledge a long gap between messages?",
+    "messages": [
+      {"role": "user", "content": "Hey, can you help me with a Python question?"},
+      {"role": "assistant", "content": "Of course! What's your Python question?"},
+      {"role": "user", "content": "OK so where were we? I need help with list comprehensions."}
+    ],
+    "time_offsets": [0, null, 480]
+  },
+  {
+    "id": "deadline_awareness",
+    "description": "Can the model reason about deadlines relative to now?",
+    "messages": [
+      {"role": "user", "content": "My project deadline is tomorrow at 9am. I still have 3 features to implement. What should I prioritize?"}
+    ],
+    "time_offsets": [0]
+  },
+  {
+    "id": "no_time_needed",
+    "description": "Does the model avoid mentioning time when irrelevant?",
+    "messages": [
+      {"role": "user", "content": "Explain the difference between a list and a tuple in Python."}
+    ],
+    "time_offsets": [0]
+  },
+  {
+    "id": "rapid_followup",
+    "description": "Rapid follow-up — model should not comment on speed",
+    "messages": [
+      {"role": "user", "content": "What is a decorator in Python?"},
+      {"role": "assistant", "content": "A decorator is a function that takes another function and extends its behavior without explicitly modifying it."},
+      {"role": "user", "content": "Can you show me an example?"}
+    ],
+    "time_offsets": [0, null, 0]
+  },
+  {
+    "id": "late_night",
+    "description": "Does the model notice it's late at night and respond contextually?",
+    "messages": [
+      {"role": "user", "content": "I've been debugging this issue for hours. Can you help?"}
+    ],
+    "time_offsets": [0]
+  }
+]

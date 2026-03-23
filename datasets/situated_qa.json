@@ -1,0 +1,542 @@
+[
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 2021): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 2021"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "2018",
+      "2018"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2021",
+      "date_type": "sampled_year",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 2019): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 2019"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "2018",
+      "2018"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2019",
+      "date_type": "sampled_year",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 2015): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 2015"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "1990",
+      "1990"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2015",
+      "date_type": "sampled_year",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 1998): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 1998"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "1990",
+      "1990"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "1998",
+      "date_type": "sampled_year",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 2018): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 2018"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "2018",
+      "2018"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2018",
+      "date_type": "start",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "-7924170207595297549",
+    "description": "Temporal QA (as of 1990): when did england last get to the semi final of a world cup",
+    "messages": [
+      {
+        "role": "user",
+        "content": "when did england last get to the semi final of a world cup as of 1990"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "1990",
+      "1990"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "1990",
+      "date_type": "start",
+      "original_question": "when did england last get to the semi final of a world cup",
+      "any_answer": [
+        "1990",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2020): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2020"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Charlie Sheen",
+      "Charlie Sheen"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2020",
+      "date_type": "sampled_year",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2019): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2019"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Charlie Sheen",
+      "Charlie Sheen"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2019",
+      "date_type": "sampled_year",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2010): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2010"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Ray Romano",
+      "Ray Romano"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2010",
+      "date_type": "sampled_year",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2007): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2007"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Ray Romano",
+      "Ray Romano"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2007",
+      "date_type": "sampled_year",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2011): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2011"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Charlie Sheen",
+      "Charlie Sheen"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2011",
+      "date_type": "start",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "4151136672125226011",
+    "description": "Temporal QA (as of 2005): who is the highest paid sitcom actor of all time",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the highest paid sitcom actor of all time as of 2005"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Ray Romano",
+      "Ray Romano"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2005",
+      "date_type": "start",
+      "original_question": "who is the highest paid sitcom actor of all time",
+      "any_answer": [
+        "Charlie Sheen",
+        "Ray Romano"
+      ]
+    }
+  },
+  {
+    "id": "3422310804628287650",
+    "description": "Temporal QA (as of 2020): what does the uk government spend the most money on",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what does the uk government spend the most money on as of 2020"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Social protection",
+      "Social protection",
+      "Social protection"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2020",
+      "date_type": "sampled_year",
+      "original_question": "what does the uk government spend the most money on",
+      "any_answer": [
+        "Social protection"
+      ]
+    }
+  },
+  {
+    "id": "3422310804628287650",
+    "description": "Temporal QA (as of 2021): what does the uk government spend the most money on",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what does the uk government spend the most money on as of 2021"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Social protection",
+      "Social protection",
+      "Social protection"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2021",
+      "date_type": "sampled_year",
+      "original_question": "what does the uk government spend the most money on",
+      "any_answer": [
+        "Social protection"
+      ]
+    }
+  },
+  {
+    "id": "3422310804628287650",
+    "description": "Temporal QA (as of 2019): what does the uk government spend the most money on",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what does the uk government spend the most money on as of 2019"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Social protection",
+      "Social protection",
+      "Social protection"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2019",
+      "date_type": "sampled_year",
+      "original_question": "what does the uk government spend the most money on",
+      "any_answer": [
+        "Social protection"
+      ]
+    }
+  },
+  {
+    "id": "3422310804628287650",
+    "description": "Temporal QA (as of 2019): what does the uk government spend the most money on",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what does the uk government spend the most money on as of 2019"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Social protection",
+      "Social protection"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2019",
+      "date_type": "start",
+      "original_question": "what does the uk government spend the most money on",
+      "any_answer": [
+        "Social protection"
+      ]
+    }
+  },
+  {
+    "id": "3422310804628287650",
+    "description": "Temporal QA (as of 2018): what does the uk government spend the most money on",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what does the uk government spend the most money on as of 2018"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "Social protection"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2018",
+      "date_type": "start",
+      "original_question": "what does the uk government spend the most money on",
+      "any_answer": [
+        "Social protection"
+      ]
+    }
+  },
+  {
+    "id": "-2303278991832843931",
+    "description": "Temporal QA (as of 2009): how many championships does the chicago bulls have",
+    "messages": [
+      {
+        "role": "user",
+        "content": "how many championships does the chicago bulls have as of 2009"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "6",
+      "6",
+      "6"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2009",
+      "date_type": "sampled_year",
+      "original_question": "how many championships does the chicago bulls have",
+      "any_answer": [
+        "5",
+        "6"
+      ]
+    }
+  },
+  {
+    "id": "-2303278991832843931",
+    "description": "Temporal QA (as of 2013): how many championships does the chicago bulls have",
+    "messages": [
+      {
+        "role": "user",
+        "content": "how many championships does the chicago bulls have as of 2013"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "6",
+      "6",
+      "6"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "2013",
+      "date_type": "sampled_year",
+      "original_question": "how many championships does the chicago bulls have",
+      "any_answer": [
+        "5",
+        "6"
+      ]
+    }
+  },
+  {
+    "id": "-2303278991832843931",
+    "description": "Temporal QA (as of 1998): how many championships does the chicago bulls have",
+    "messages": [
+      {
+        "role": "user",
+        "content": "how many championships does the chicago bulls have as of 1998"
+      }
+    ],
+    "time_offsets": [
+      0
+    ],
+    "expected_answer": [
+      "6",
+      "6",
+      "6"
+    ],
+    "metadata": {
+      "source": "situated_qa",
+      "date": "1998",
+      "date_type": "start",
+      "original_question": "how many championships does the chicago bulls have",
+      "any_answer": [
+        "5",
+        "6"
+      ]
+    }
+  }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Aware Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time-Aware Chatbot</h1>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="chat">Chat</button>
+            <button class="tab" data-tab="evals">Evals</button>
+            <button class="tab" data-tab="conversations">Conversations</button>
+        </div>
+
+        <!-- Chat tab -->
+        <div id="chat-tab">
+            <div class="chat-controls">
+                <label class="toggle">
+                    <input type="checkbox" id="timestamps-toggle" checked>
+                    <span>Timestamps</span>
+                </label>
+                <label class="toggle">
+                    <input type="checkbox" id="thinking-toggle" checked>
+                    <span>Extended thinking</span>
+                </label>
+                <button id="clear-chat" class="btn-secondary">Clear</button>
+            </div>
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="chat-input-row">
+                <textarea id="chat-input" placeholder="Type a message..." rows="1"></textarea>
+                <button id="send-btn" class="btn-primary">Send</button>
+            </div>
+        </div>
+
+        <!-- Evals tab -->
+        <div id="evals-tab" class="hidden">
+            <div id="evals-list"></div>
+        </div>
+
+        <!-- Conversations tab -->
+        <div id="conversations-tab" class="hidden">
+            <div id="conversations-list"></div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

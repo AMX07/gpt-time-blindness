@@ -1,0 +1,12 @@
+[project]
+name = "time-aware-chatbot"
+version = "0.1.0"
+description = "Time-aware chatbot with eval pipeline and dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "boto3>=1.42.0",
+    "fastapi>=0.110.0",
+    "python-dotenv>=1.0.0",
+    "uvicorn>=0.27.0",
+]
