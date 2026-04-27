@@ -10,7 +10,7 @@ Currently, the latter is what happens in all the Chatbot systems.
 
 Based on literature review, the closest ones Claude code found were:
 
-"
+
 
   1. "Having Lunch Now": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection (Sept 2025)                                                                                                 
   This is the paper I should have led with. It explicitly studies a coach-like agent that does morning planning and evening reflection, integrating context across daily cycles. Closest published work to "assistant that
@@ -25,13 +25,16 @@ Based on literature review, the closest ones Claude code found were:
                   
   4. PITCH: Agentic Conversational Support for Planning and Self-reflection (ACM CUI 2025)                                                                                                                                        
   Productivity-domain agent system. Useful as a design reference for what a time-aware planning assistant looks like.
-                                                                                                                                                                                                                                  
-  Tier 2 — Useful framing
-                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
   5. "Real-Time Deadlines Reveal Temporal Awareness Failures in LLM Strategic Dialogues"                                                                                                                                          
   Concrete demonstration that LLMs can't track elapsed real-time during a conversation — deal-closure rates collapse without time-awareness scaffolding. Good "this is a real measurable failure" citation.
 
-"
+Sources:                                                                                                                                                                                                                        
+  - https://arxiv.org/html/2509.24073v1
+  - https://arxiv.org/html/2406.00057v2                                                                                                                                                                                       
+  - https://arxiv.org/abs/2410.10813   
+  - https://dl.acm.org/doi/10.1145/3719160.3736634                                                                                                                                                                            
+  - https://arxiv.org/abs/2601.13206                                                                                                                                                                                          
+  - https://arxiv.org/html/2502.13920v1       
 
-However, even all of these did not specifically close the gap.
 
